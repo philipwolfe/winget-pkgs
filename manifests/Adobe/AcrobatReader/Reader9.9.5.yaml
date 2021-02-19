@@ -1,0 +1,37 @@
+Id: adobe.acrobatreader
+Name: Acrobat Reader 9.5.5
+AppMoniker: acrobat
+Version: 9.5.5
+Publisher: Adobe
+License: commercial
+Description:
+  Older light weight version of Adobe Acrobat Reader.
+Homepage: https://adobe.com
+Tags: "adobe, acrobat, reader, pdf"
+FileExtensions: "pdf"
+InstallerType: msi
+
+Installers:
+  - Arch: x64
+    Url: http://ardownload.adobe.com/pub/adobe/reader/win/9.x/9.5.0/en_US/AdbeRdr950_en_US.msi
+    Sha256: 
+  - Arch: x64
+    Url: http://ardownload.adobe.com/pub/adobe/reader/win/9.x/9.5.1/misc/AdbeRdrUpd951_all_incr.msp
+    Sha256: 
+  - Arch: x64
+    Url: http://ardownload.adobe.com/pub/adobe/reader/win/9.x/9.5.2/misc/AdbeRdrUpd952_all_incr.msp
+    Sha256: 
+  - Arch: x64
+    Url: http://ardownload.adobe.com/pub/adobe/reader/win/9.x/9.5.3/misc/AdbeRdrUpd953_all_incr.msp
+    Sha256: 
+  - Arch: x64
+    Url: http://ardownload.adobe.com/pub/adobe/reader/win/9.x/9.5.4/misc/AdbeRdrUpd954_all_incr.msp
+    Sha256: 
+  - Arch: x64
+    Url: http://ardownload.adobe.com/pub/adobe/reader/win/9.x/9.5.5/misc/AdbeRdrUpd955_all_incr.msp
+    Sha256: 
+
+
+
+
+ManifestVersion: 0.1.0
